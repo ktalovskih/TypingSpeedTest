@@ -13,6 +13,7 @@ private:
     QElapsedTimer* timer;
     int mistakes;
     QMessageBox* message;
+    int i;
 public:
 
     Logic();
@@ -20,6 +21,7 @@ public:
     void startTimer();
     void stopTimer(int i );
     void userMadeMistake();
+    
 
 };
 
